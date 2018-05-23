@@ -6,7 +6,6 @@ export class App {
   router: Router;
   configureRouter(config: RouterConfiguration, router: Router): void {
     this.router = router;
-    config.title = "Title";
     config.map([
       {
         route: "1",
@@ -31,7 +30,20 @@ export class App {
         name: "four",
         moduleId: PLATFORM.moduleName("four"),
         title: "Template with Repeaters"
+      },
+      {
+        route: "5",
+        name: "five",
+        moduleId: PLATFORM.moduleName("five"),
+        title: "Template reuse"
+      },
+      {
+        route: "6",
+        name: "six",
+        moduleId: PLATFORM.moduleName("six"),
+        title: "Template composition"
       }
     ]);
+    config.mapUnknownRoutes(PLATFORM.moduleName("one"));
   }
 }
