@@ -605,6 +605,143 @@ module.exports = __webpack_require__(/*! aurelia-bootstrapper */"./node_modules/
 
 /***/ }),
 
+/***/ "1/one.html":
+/*!************************!*\
+  !*** ./src/1/one.html ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<template>\\n  <h1>Basic Template</h1>\\n  <p>This is a simple template. It has no View-Model.</p>\\n  <p>Templates works with a View-Model, but do not absolutely need one.</p>\\n</template>\\n\";//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMS9vbmUuaHRtbC5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3NyYy8xL29uZS5odG1sPzU1MTIiXSwic291cmNlc0NvbnRlbnQiOlsibW9kdWxlLmV4cG9ydHMgPSBcIjx0ZW1wbGF0ZT5cXG4gIDxoMT5CYXNpYyBUZW1wbGF0ZTwvaDE+XFxuICA8cD5UaGlzIGlzIGEgc2ltcGxlIHRlbXBsYXRlLiBJdCBoYXMgbm8gVmlldy1Nb2RlbC48L3A+XFxuICA8cD5UZW1wbGF0ZXMgd29ya3Mgd2l0aCBhIFZpZXctTW9kZWwsIGJ1dCBkbyBub3QgYWJzb2x1dGVseSBuZWVkIG9uZS48L3A+XFxuPC90ZW1wbGF0ZT5cXG5cIjsiXSwibWFwcGluZ3MiOiJBQUFBIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///1/one.html\n");
+
+/***/ }),
+
+/***/ "2/two":
+/*!**********************!*\
+  !*** ./src/2/two.ts ***!
+  \**********************/
+/*! exports provided: Two */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Two\", function() { return Two; });\nvar Two = /** @class */ (function () {\r\n    function Two() {\r\n        this.conference = \"DevSum18\";\r\n    }\r\n    return Two;\r\n}());\r\n\r\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMi90d28uanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvMi90d28udHM/ZGM3MCJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY2xhc3MgVHdvIHtcbiAgY29uZmVyZW5jZSA9IFwiRGV2U3VtMThcIjtcbn1cbiJdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQUE7QUFDQTtBQUNBO0FBQUE7QUFBQTs7Iiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///2/two\n");
+
+/***/ }),
+
+/***/ "2/two.html":
+/*!************************!*\
+  !*** ./src/2/two.html ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<template>\\n  <h1>Template with View-Model</h1>\\n  <div>\\n    <p>\\n      The syntax\\n      <code><b>\\\\${}</b></code> was introduced in ES2015 for string interpolation. The same syntax is used in Aurelia templates to evaluate expressions.</p>\\n    <p>\\n      <em>Ex.</em> Hello ${conference}!</p>\\n  </div>\\n  <div>\\n    <p>It can be used to interpret JavaScript statements.</p>\\n    <p>\\n      <em>Ex.</em> Are you having a great time? ${conference === 'DevSum18' ? 'Yes!' : 'No :('}</p>\\n  </div>\\n</template>\\n\";//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMi90d28uaHRtbC5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3NyYy8yL3R3by5odG1sP2YzYjQiXSwic291cmNlc0NvbnRlbnQiOlsibW9kdWxlLmV4cG9ydHMgPSBcIjx0ZW1wbGF0ZT5cXG4gIDxoMT5UZW1wbGF0ZSB3aXRoIFZpZXctTW9kZWw8L2gxPlxcbiAgPGRpdj5cXG4gICAgPHA+XFxuICAgICAgVGhlIHN5bnRheFxcbiAgICAgIDxjb2RlPjxiPlxcXFwke308L2I+PC9jb2RlPiB3YXMgaW50cm9kdWNlZCBpbiBFUzIwMTUgZm9yIHN0cmluZyBpbnRlcnBvbGF0aW9uLiBUaGUgc2FtZSBzeW50YXggaXMgdXNlZCBpbiBBdXJlbGlhIHRlbXBsYXRlcyB0byBldmFsdWF0ZSBleHByZXNzaW9ucy48L3A+XFxuICAgIDxwPlxcbiAgICAgIDxlbT5FeC48L2VtPiBIZWxsbyAke2NvbmZlcmVuY2V9ITwvcD5cXG4gIDwvZGl2PlxcbiAgPGRpdj5cXG4gICAgPHA+SXQgY2FuIGJlIHVzZWQgdG8gaW50ZXJwcmV0IEphdmFTY3JpcHQgc3RhdGVtZW50cy48L3A+XFxuICAgIDxwPlxcbiAgICAgIDxlbT5FeC48L2VtPiBBcmUgeW91IGhhdmluZyBhIGdyZWF0IHRpbWU/ICR7Y29uZmVyZW5jZSA9PT0gJ0RldlN1bTE4JyA/ICdZZXMhJyA6ICdObyA6KCd9PC9wPlxcbiAgPC9kaXY+XFxuPC90ZW1wbGF0ZT5cXG5cIjsiXSwibWFwcGluZ3MiOiJBQUFBIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///2/two.html\n");
+
+/***/ }),
+
+/***/ "3/three":
+/*!************************!*\
+  !*** ./src/3/three.ts ***!
+  \************************/
+/*! exports provided: Three */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Three\", function() { return Three; });\nvar Three = /** @class */ (function () {\r\n    function Three() {\r\n        this.theTruth = false;\r\n    }\r\n    return Three;\r\n}());\r\n\r\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMy90aHJlZS5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3NyYy8zL3RocmVlLnRzPzdiNGYiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNsYXNzIFRocmVlIHtcbiAgdGhlVHJ1dGggPSBmYWxzZTtcbn1cbiJdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQUE7QUFDQTtBQUNBO0FBQUE7QUFBQTs7Iiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///3/three\n");
+
+/***/ }),
+
+/***/ "3/three.html":
+/*!**************************!*\
+  !*** ./src/3/three.html ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<template>\\n  <h1>Template with Conditionals</h1>\\n\\n  <p>The two tools to use for confitional rendering of templates is\\n    <code>if</code> and\\n    <code>show</code>.</p>\\n  <div>\\n    <p>The truth </p>\\n    <p show.bind=\\\"theTruth\\\">is out there!</p>\\n    <p show.bind=\\\"!theTruth\\\">is hidden?</p>\\n  </div>\\n  <div>\\n    <p>The truth </p>\\n    <p if.bind=\\\"theTruth\\\">is out there!</p>\\n    <p else>is nowhere to be found...</p>\\n  </div>\\n</template>\\n\";//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMy90aHJlZS5odG1sLmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vc3JjLzMvdGhyZWUuaHRtbD85MzA2Il0sInNvdXJjZXNDb250ZW50IjpbIm1vZHVsZS5leHBvcnRzID0gXCI8dGVtcGxhdGU+XFxuICA8aDE+VGVtcGxhdGUgd2l0aCBDb25kaXRpb25hbHM8L2gxPlxcblxcbiAgPHA+VGhlIHR3byB0b29scyB0byB1c2UgZm9yIGNvbmZpdGlvbmFsIHJlbmRlcmluZyBvZiB0ZW1wbGF0ZXMgaXNcXG4gICAgPGNvZGU+aWY8L2NvZGU+IGFuZFxcbiAgICA8Y29kZT5zaG93PC9jb2RlPi48L3A+XFxuICA8ZGl2PlxcbiAgICA8cD5UaGUgdHJ1dGggPC9wPlxcbiAgICA8cCBzaG93LmJpbmQ9XFxcInRoZVRydXRoXFxcIj5pcyBvdXQgdGhlcmUhPC9wPlxcbiAgICA8cCBzaG93LmJpbmQ9XFxcIiF0aGVUcnV0aFxcXCI+aXMgaGlkZGVuPzwvcD5cXG4gIDwvZGl2PlxcbiAgPGRpdj5cXG4gICAgPHA+VGhlIHRydXRoIDwvcD5cXG4gICAgPHAgaWYuYmluZD1cXFwidGhlVHJ1dGhcXFwiPmlzIG91dCB0aGVyZSE8L3A+XFxuICAgIDxwIGVsc2U+aXMgbm93aGVyZSB0byBiZSBmb3VuZC4uLjwvcD5cXG4gIDwvZGl2PlxcbjwvdGVtcGxhdGU+XFxuXCI7Il0sIm1hcHBpbmdzIjoiQUFBQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///3/three.html\n");
+
+/***/ }),
+
+/***/ "4/four":
+/*!***********************!*\
+  !*** ./src/4/four.ts ***!
+  \***********************/
+/*! exports provided: Four */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Four\", function() { return Four; });\nvar Four = /** @class */ (function () {\r\n    function Four() {\r\n        this.numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];\r\n    }\r\n    return Four;\r\n}());\r\n\r\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiNC9mb3VyLmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vc3JjLzQvZm91ci50cz9hMjA3Il0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjbGFzcyBGb3VyIHtcclxuICBudW1iZXJzID0gWzEsIDIsIDMsIDQsIDUsIDYsIDcsIDgsIDksIDEwXTtcclxufVxyXG4iXSwibWFwcGluZ3MiOiJBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQ0E7QUFDQTtBQUFBO0FBQUE7OyIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///4/four\n");
+
+/***/ }),
+
+/***/ "4/four.html":
+/*!*************************!*\
+  !*** ./src/4/four.html ***!
+  \*************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<template>\\r\\n    <h1>Template with Repeaters</h1>\\r\\n    <div>\\r\\n        <p>An array of numbers:</p>\\r\\n        <p repeat.for=\\\"nom of numbers\\\">nom</p>\\r\\n    </div>\\r\\n</template>\";//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiNC9mb3VyLmh0bWwuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvNC9mb3VyLmh0bWw/MGE2ZiJdLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IFwiPHRlbXBsYXRlPlxcclxcbiAgICA8aDE+VGVtcGxhdGUgd2l0aCBSZXBlYXRlcnM8L2gxPlxcclxcbiAgICA8ZGl2PlxcclxcbiAgICAgICAgPHA+QW4gYXJyYXkgb2YgbnVtYmVyczo8L3A+XFxyXFxuICAgICAgICA8cCByZXBlYXQuZm9yPVxcXCJub20gb2YgbnVtYmVyc1xcXCI+bm9tPC9wPlxcclxcbiAgICA8L2Rpdj5cXHJcXG48L3RlbXBsYXRlPlwiOyJdLCJtYXBwaW5ncyI6IkFBQUEiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///4/four.html\n");
+
+/***/ }),
+
+/***/ "5/five":
+/*!***********************!*\
+  !*** ./src/5/five.ts ***!
+  \***********************/
+/*! exports provided: Five */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Five\", function() { return Five; });\nvar Five = /** @class */ (function () {\r\n    function Five() {\r\n    }\r\n    return Five;\r\n}());\r\n\r\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiNS9maXZlLmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vc3JjLzUvZml2ZS50cz85ZDBjIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjbGFzcyBGaXZlIHt9XG4iXSwibWFwcGluZ3MiOiJBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBOzsiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///5/five\n");
+
+/***/ }),
+
+/***/ "5/five.html":
+/*!*************************!*\
+  !*** ./src/5/five.html ***!
+  \*************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = \"<template>\\n  <require from=\\\"5/small-template.html\\\"></require>\\n\\n  <h1>Loading External Templates</h1>\\n\\n  <p>Loading of external Templates is easy, just use\\n    <code>require</code> and then \\\"use\\\" the element.</p>\\n  <p></p>\\n  <div>\\n    <small-template></small-template>\\n  </div>\\n</template>\\n\";//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiNS9maXZlLmh0bWwuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvNS9maXZlLmh0bWw/MGQxNSJdLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IFwiPHRlbXBsYXRlPlxcbiAgPHJlcXVpcmUgZnJvbT1cXFwiNS9zbWFsbC10ZW1wbGF0ZS5odG1sXFxcIj48L3JlcXVpcmU+XFxuXFxuICA8aDE+TG9hZGluZyBFeHRlcm5hbCBUZW1wbGF0ZXM8L2gxPlxcblxcbiAgPHA+TG9hZGluZyBvZiBleHRlcm5hbCBUZW1wbGF0ZXMgaXMgZWFzeSwganVzdCB1c2VcXG4gICAgPGNvZGU+cmVxdWlyZTwvY29kZT4gYW5kIHRoZW4gXFxcInVzZVxcXCIgdGhlIGVsZW1lbnQuPC9wPlxcbiAgPHA+PC9wPlxcbiAgPGRpdj5cXG4gICAgPHNtYWxsLXRlbXBsYXRlPjwvc21hbGwtdGVtcGxhdGU+XFxuICA8L2Rpdj5cXG48L3RlbXBsYXRlPlxcblwiOyJdLCJtYXBwaW5ncyI6IkFBQUEiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///5/five.html\n");
+
+/***/ }),
+
+/***/ "5/small-template.html":
+/*!***********************************!*\
+  !*** ./src/5/small-template.html ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<template>\\n  <p>A very small template.</p>\\n</template>\\n\";//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiNS9zbWFsbC10ZW1wbGF0ZS5odG1sLmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vc3JjLzUvc21hbGwtdGVtcGxhdGUuaHRtbD85ZTI2Il0sInNvdXJjZXNDb250ZW50IjpbIm1vZHVsZS5leHBvcnRzID0gXCI8dGVtcGxhdGU+XFxuICA8cD5BIHZlcnkgc21hbGwgdGVtcGxhdGUuPC9wPlxcbjwvdGVtcGxhdGU+XFxuXCI7Il0sIm1hcHBpbmdzIjoiQUFBQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///5/small-template.html\n");
+
+/***/ }),
+
+/***/ "6/six":
+/*!**********************!*\
+  !*** ./src/6/six.ts ***!
+  \**********************/
+/*! exports provided: Six */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Six\", function() { return Six; });\nvar Six = /** @class */ (function () {\r\n    function Six() {\r\n    }\r\n    return Six;\r\n}());\r\n\r\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiNi9zaXguanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvNi9zaXgudHM/ZjkzNSJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY2xhc3MgU2l4IHt9XG4iXSwibWFwcGluZ3MiOiJBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBOzsiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///6/six\n");
+
+/***/ }),
+
+/***/ "6/six.html":
+/*!************************!*\
+  !*** ./src/6/six.html ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<template>\\n  <h1>Assemblying Templates by Composition</h1>\\n\\n</template>\\n\";//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiNi9zaXguaHRtbC5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3NyYy82L3NpeC5odG1sPzkzYTUiXSwic291cmNlc0NvbnRlbnQiOlsibW9kdWxlLmV4cG9ydHMgPSBcIjx0ZW1wbGF0ZT5cXG4gIDxoMT5Bc3NlbWJseWluZyBUZW1wbGF0ZXMgYnkgQ29tcG9zaXRpb248L2gxPlxcblxcbjwvdGVtcGxhdGU+XFxuXCI7Il0sIm1hcHBpbmdzIjoiQUFBQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///6/six.html\n");
+
+/***/ }),
+
 /***/ "app":
 /*!********************!*\
   !*** ./src/app.ts ***!
@@ -613,7 +750,7 @@ module.exports = __webpack_require__(/*! aurelia-bootstrapper */"./node_modules/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"App\", function() { return App; });\n/* harmony import */ var aurelia_pal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! aurelia-pal */ \"./node_modules/aurelia-pal/dist/native-modules/aurelia-pal.js\");\n\r\nvar App = /** @class */ (function () {\r\n    function App() {\r\n        this.message = \"Templating\";\r\n    }\r\n    App.prototype.configureRouter = function (config, router) {\r\n        this.router = router;\r\n        config.map([\r\n            {\r\n                route: \"1\",\r\n                name: \"one\",\r\n                moduleId: 'one',\r\n                title: \"Basic Templating\"\r\n            },\r\n            {\r\n                route: \"2\",\r\n                name: \"two\",\r\n                moduleId: 'two',\r\n                title: \"Template with View-Model\"\r\n            },\r\n            {\r\n                route: \"3\",\r\n                name: \"three\",\r\n                moduleId: 'three',\r\n                title: \"Template with Conditionals\"\r\n            },\r\n            {\r\n                route: \"4\",\r\n                name: \"four\",\r\n                moduleId: 'four',\r\n                title: \"Template with Repeaters\"\r\n            },\r\n            {\r\n                route: \"5\",\r\n                name: \"five\",\r\n                moduleId: 'five',\r\n                title: \"Template reuse\"\r\n            },\r\n            {\r\n                route: \"6\",\r\n                name: \"six\",\r\n                moduleId: 'six',\r\n                title: \"Template composition\"\r\n            }\r\n        ]);\r\n        config.mapUnknownRoutes('one');\r\n    };\r\n    return App;\r\n}());\r\n\r\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXBwLmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vc3JjL2FwcC50cz8wNjZlIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IFBMQVRGT1JNIH0gZnJvbSBcImF1cmVsaWEtcGFsXCI7XG5pbXBvcnQgeyBSb3V0ZXJDb25maWd1cmF0aW9uLCBSb3V0ZXIgfSBmcm9tIFwiYXVyZWxpYS1yb3V0ZXJcIjtcblxuZXhwb3J0IGNsYXNzIEFwcCB7XG4gIG1lc3NhZ2UgPSBcIlRlbXBsYXRpbmdcIjtcbiAgcm91dGVyOiBSb3V0ZXI7XG4gIGNvbmZpZ3VyZVJvdXRlcihjb25maWc6IFJvdXRlckNvbmZpZ3VyYXRpb24sIHJvdXRlcjogUm91dGVyKTogdm9pZCB7XG4gICAgdGhpcy5yb3V0ZXIgPSByb3V0ZXI7XG4gICAgY29uZmlnLm1hcChbXG4gICAgICB7XG4gICAgICAgIHJvdXRlOiBcIjFcIixcbiAgICAgICAgbmFtZTogXCJvbmVcIixcbiAgICAgICAgbW9kdWxlSWQ6IFBMQVRGT1JNLm1vZHVsZU5hbWUoXCJvbmVcIiksXG4gICAgICAgIHRpdGxlOiBcIkJhc2ljIFRlbXBsYXRpbmdcIlxuICAgICAgfSxcbiAgICAgIHtcbiAgICAgICAgcm91dGU6IFwiMlwiLFxuICAgICAgICBuYW1lOiBcInR3b1wiLFxuICAgICAgICBtb2R1bGVJZDogUExBVEZPUk0ubW9kdWxlTmFtZShcInR3b1wiKSxcbiAgICAgICAgdGl0bGU6IFwiVGVtcGxhdGUgd2l0aCBWaWV3LU1vZGVsXCJcbiAgICAgIH0sXG4gICAgICB7XG4gICAgICAgIHJvdXRlOiBcIjNcIixcbiAgICAgICAgbmFtZTogXCJ0aHJlZVwiLFxuICAgICAgICBtb2R1bGVJZDogUExBVEZPUk0ubW9kdWxlTmFtZShcInRocmVlXCIpLFxuICAgICAgICB0aXRsZTogXCJUZW1wbGF0ZSB3aXRoIENvbmRpdGlvbmFsc1wiXG4gICAgICB9LFxuICAgICAge1xuICAgICAgICByb3V0ZTogXCI0XCIsXG4gICAgICAgIG5hbWU6IFwiZm91clwiLFxuICAgICAgICBtb2R1bGVJZDogUExBVEZPUk0ubW9kdWxlTmFtZShcImZvdXJcIiksXG4gICAgICAgIHRpdGxlOiBcIlRlbXBsYXRlIHdpdGggUmVwZWF0ZXJzXCJcbiAgICAgIH0sXG4gICAgICB7XG4gICAgICAgIHJvdXRlOiBcIjVcIixcbiAgICAgICAgbmFtZTogXCJmaXZlXCIsXG4gICAgICAgIG1vZHVsZUlkOiBQTEFURk9STS5tb2R1bGVOYW1lKFwiZml2ZVwiKSxcbiAgICAgICAgdGl0bGU6IFwiVGVtcGxhdGUgcmV1c2VcIlxuICAgICAgfSxcbiAgICAgIHtcbiAgICAgICAgcm91dGU6IFwiNlwiLFxuICAgICAgICBuYW1lOiBcInNpeFwiLFxuICAgICAgICBtb2R1bGVJZDogUExBVEZPUk0ubW9kdWxlTmFtZShcInNpeFwiKSxcbiAgICAgICAgdGl0bGU6IFwiVGVtcGxhdGUgY29tcG9zaXRpb25cIlxuICAgICAgfVxuICAgIF0pO1xuICAgIGNvbmZpZy5tYXBVbmtub3duUm91dGVzKFBMQVRGT1JNLm1vZHVsZU5hbWUoXCJvbmVcIikpO1xuICB9XG59XG4iXSwibWFwcGluZ3MiOiJBQUFBO0FBQUE7QUFBQTtBQUFBO0FBR0E7QUFBQTtBQUNBO0FBNENBO0FBMUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQUE7OyIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///app\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"App\", function() { return App; });\n/* harmony import */ var aurelia_pal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! aurelia-pal */ \"./node_modules/aurelia-pal/dist/native-modules/aurelia-pal.js\");\n\r\nvar App = /** @class */ (function () {\r\n    function App() {\r\n        this.message = \"Templating\";\r\n    }\r\n    App.prototype.configureRouter = function (config, router) {\r\n        this.router = router;\r\n        config.map([\r\n            {\r\n                route: \"1\",\r\n                name: \"one\",\r\n                moduleId: '1/one.html',\r\n                title: \"Basic Templating\"\r\n            },\r\n            {\r\n                route: \"2\",\r\n                name: \"two\",\r\n                moduleId: '2/two',\r\n                title: \"Template with View-Model\"\r\n            },\r\n            {\r\n                route: \"3\",\r\n                name: \"three\",\r\n                moduleId: '3/three',\r\n                title: \"Template with Conditionals\"\r\n            },\r\n            {\r\n                route: \"4\",\r\n                name: \"four\",\r\n                moduleId: '4/four',\r\n                title: \"Template with Repeaters\"\r\n            },\r\n            {\r\n                route: \"5\",\r\n                name: \"five\",\r\n                moduleId: '5/five',\r\n                title: \"Template reuse\"\r\n            },\r\n            {\r\n                route: \"6\",\r\n                name: \"six\",\r\n                moduleId: '6/six',\r\n                title: \"Template composition\"\r\n            }\r\n        ]);\r\n        config.mapUnknownRoutes('index.html');\r\n    };\r\n    return App;\r\n}());\r\n\r\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXBwLmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vc3JjL2FwcC50cz8wNjZlIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IFBMQVRGT1JNIH0gZnJvbSBcImF1cmVsaWEtcGFsXCI7XG5pbXBvcnQgeyBSb3V0ZXJDb25maWd1cmF0aW9uLCBSb3V0ZXIgfSBmcm9tIFwiYXVyZWxpYS1yb3V0ZXJcIjtcblxuZXhwb3J0IGNsYXNzIEFwcCB7XG4gIG1lc3NhZ2UgPSBcIlRlbXBsYXRpbmdcIjtcbiAgcm91dGVyOiBSb3V0ZXI7XG4gIGNvbmZpZ3VyZVJvdXRlcihjb25maWc6IFJvdXRlckNvbmZpZ3VyYXRpb24sIHJvdXRlcjogUm91dGVyKTogdm9pZCB7XG4gICAgdGhpcy5yb3V0ZXIgPSByb3V0ZXI7XG4gICAgY29uZmlnLm1hcChbXG4gICAgICB7XG4gICAgICAgIHJvdXRlOiBcIjFcIixcbiAgICAgICAgbmFtZTogXCJvbmVcIixcbiAgICAgICAgbW9kdWxlSWQ6IFBMQVRGT1JNLm1vZHVsZU5hbWUoXCIxL29uZS5odG1sXCIpLFxuICAgICAgICB0aXRsZTogXCJCYXNpYyBUZW1wbGF0aW5nXCJcbiAgICAgIH0sXG4gICAgICB7XG4gICAgICAgIHJvdXRlOiBcIjJcIixcbiAgICAgICAgbmFtZTogXCJ0d29cIixcbiAgICAgICAgbW9kdWxlSWQ6IFBMQVRGT1JNLm1vZHVsZU5hbWUoXCIyL3R3b1wiKSxcbiAgICAgICAgdGl0bGU6IFwiVGVtcGxhdGUgd2l0aCBWaWV3LU1vZGVsXCJcbiAgICAgIH0sXG4gICAgICB7XG4gICAgICAgIHJvdXRlOiBcIjNcIixcbiAgICAgICAgbmFtZTogXCJ0aHJlZVwiLFxuICAgICAgICBtb2R1bGVJZDogUExBVEZPUk0ubW9kdWxlTmFtZShcIjMvdGhyZWVcIiksXG4gICAgICAgIHRpdGxlOiBcIlRlbXBsYXRlIHdpdGggQ29uZGl0aW9uYWxzXCJcbiAgICAgIH0sXG4gICAgICB7XG4gICAgICAgIHJvdXRlOiBcIjRcIixcbiAgICAgICAgbmFtZTogXCJmb3VyXCIsXG4gICAgICAgIG1vZHVsZUlkOiBQTEFURk9STS5tb2R1bGVOYW1lKFwiNC9mb3VyXCIpLFxuICAgICAgICB0aXRsZTogXCJUZW1wbGF0ZSB3aXRoIFJlcGVhdGVyc1wiXG4gICAgICB9LFxuICAgICAge1xuICAgICAgICByb3V0ZTogXCI1XCIsXG4gICAgICAgIG5hbWU6IFwiZml2ZVwiLFxuICAgICAgICBtb2R1bGVJZDogUExBVEZPUk0ubW9kdWxlTmFtZShcIjUvZml2ZVwiKSxcbiAgICAgICAgdGl0bGU6IFwiVGVtcGxhdGUgcmV1c2VcIlxuICAgICAgfSxcbiAgICAgIHtcbiAgICAgICAgcm91dGU6IFwiNlwiLFxuICAgICAgICBuYW1lOiBcInNpeFwiLFxuICAgICAgICBtb2R1bGVJZDogUExBVEZPUk0ubW9kdWxlTmFtZShcIjYvc2l4XCIpLFxuICAgICAgICB0aXRsZTogXCJUZW1wbGF0ZSBjb21wb3NpdGlvblwiXG4gICAgICB9XG4gICAgXSk7XG4gICAgY29uZmlnLm1hcFVua25vd25Sb3V0ZXMoUExBVEZPUk0ubW9kdWxlTmFtZShcImluZGV4Lmh0bWxcIikpO1xuICB9XG59XG4iXSwibWFwcGluZ3MiOiJBQUFBO0FBQUE7QUFBQTtBQUFBO0FBR0E7QUFBQTtBQUNBO0FBNENBO0FBMUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQUE7OyIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///app\n");
 
 /***/ }),
 
@@ -988,49 +1125,14 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
-/***/ "five":
-/*!*********************!*\
-  !*** ./src/five.ts ***!
-  \*********************/
-/*! exports provided: Five */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Five\", function() { return Five; });\nvar Five = /** @class */ (function () {\r\n    function Five() {\r\n    }\r\n    return Five;\r\n}());\r\n\r\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZml2ZS5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3NyYy9maXZlLnRzPzFhZmIiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNsYXNzIEZpdmUge31cbiJdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7OyIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///five\n");
-
-/***/ }),
-
-/***/ "five.html":
-/*!***********************!*\
-  !*** ./src/five.html ***!
-  \***********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = \"<template>\\n  <require from=\\\"small-template.html\\\"></require>\\n  <p>Loading of external Templates is easy, just use\\n    <code>require</code>.</p>\\n  <div>\\n    <small-template></small-template>\\n  </div>\\n</template>\\n\";//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZml2ZS5odG1sLmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vc3JjL2ZpdmUuaHRtbD85OThkIl0sInNvdXJjZXNDb250ZW50IjpbIm1vZHVsZS5leHBvcnRzID0gXCI8dGVtcGxhdGU+XFxuICA8cmVxdWlyZSBmcm9tPVxcXCJzbWFsbC10ZW1wbGF0ZS5odG1sXFxcIj48L3JlcXVpcmU+XFxuICA8cD5Mb2FkaW5nIG9mIGV4dGVybmFsIFRlbXBsYXRlcyBpcyBlYXN5LCBqdXN0IHVzZVxcbiAgICA8Y29kZT5yZXF1aXJlPC9jb2RlPi48L3A+XFxuICA8ZGl2PlxcbiAgICA8c21hbGwtdGVtcGxhdGU+PC9zbWFsbC10ZW1wbGF0ZT5cXG4gIDwvZGl2PlxcbjwvdGVtcGxhdGU+XFxuXCI7Il0sIm1hcHBpbmdzIjoiQUFBQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///five.html\n");
-
-/***/ }),
-
-/***/ "four":
-/*!*********************!*\
-  !*** ./src/four.ts ***!
-  \*********************/
-/*! exports provided: Four */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Four\", function() { return Four; });\nvar Four = /** @class */ (function () {\r\n    function Four() {\r\n        this.numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];\r\n    }\r\n    return Four;\r\n}());\r\n\r\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZm91ci5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3NyYy9mb3VyLnRzPzI3NzMiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNsYXNzIEZvdXIge1xyXG4gIG51bWJlcnMgPSBbMSwgMiwgMywgNCwgNSwgNiwgNywgOCwgOSwgMTBdO1xyXG59XHJcbiJdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQUE7QUFDQTtBQUNBO0FBQUE7QUFBQTs7Iiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///four\n");
-
-/***/ }),
-
-/***/ "four.html":
-/*!***********************!*\
-  !*** ./src/four.html ***!
-  \***********************/
+/***/ "index.html":
+/*!************************!*\
+  !*** ./src/index.html ***!
+  \************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = \"<template>\\r\\n    <h1>Template with Repeaters</h1>\\r\\n    <div>\\r\\n        <p>An array of numbers:</p>\\r\\n        <p repeat.for=\\\"nom of numbers\\\">nom</p>\\r\\n    </div>\\r\\n</template>\";//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZm91ci5odG1sLmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vc3JjL2ZvdXIuaHRtbD80MDdhIl0sInNvdXJjZXNDb250ZW50IjpbIm1vZHVsZS5leHBvcnRzID0gXCI8dGVtcGxhdGU+XFxyXFxuICAgIDxoMT5UZW1wbGF0ZSB3aXRoIFJlcGVhdGVyczwvaDE+XFxyXFxuICAgIDxkaXY+XFxyXFxuICAgICAgICA8cD5BbiBhcnJheSBvZiBudW1iZXJzOjwvcD5cXHJcXG4gICAgICAgIDxwIHJlcGVhdC5mb3I9XFxcIm5vbSBvZiBudW1iZXJzXFxcIj5ub208L3A+XFxyXFxuICAgIDwvZGl2PlxcclxcbjwvdGVtcGxhdGU+XCI7Il0sIm1hcHBpbmdzIjoiQUFBQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///four.html\n");
+eval("module.exports = \"<template>\\n  <h1>Examples</h1>\\n\\n  <ol>\\n    <li>\\n      <a href=\\\"#1\\\">Basic Template</a>\\n    </li>\\n    <li>\\n      <a href=\\\"#2\\\">Template with View-Model</a>\\n    </li>\\n    <li>\\n      <a href=\\\"#3\\\">Conditionals</a>\\n    </li>\\n    <li>\\n      <a href=\\\"#4\\\">Repeaters</a>\\n    </li>\\n    <li>\\n      <a href=\\\"#5\\\">Loading Template</a>\\n    </li>\\n    <li>\\n      <a href=\\\"#6\\\">Composition</a>\\n    </li>\\n  </ol>\\n</template>\\n\";//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguaHRtbC5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3NyYy9pbmRleC5odG1sP2JkYWMiXSwic291cmNlc0NvbnRlbnQiOlsibW9kdWxlLmV4cG9ydHMgPSBcIjx0ZW1wbGF0ZT5cXG4gIDxoMT5FeGFtcGxlczwvaDE+XFxuXFxuICA8b2w+XFxuICAgIDxsaT5cXG4gICAgICA8YSBocmVmPVxcXCIjMVxcXCI+QmFzaWMgVGVtcGxhdGU8L2E+XFxuICAgIDwvbGk+XFxuICAgIDxsaT5cXG4gICAgICA8YSBocmVmPVxcXCIjMlxcXCI+VGVtcGxhdGUgd2l0aCBWaWV3LU1vZGVsPC9hPlxcbiAgICA8L2xpPlxcbiAgICA8bGk+XFxuICAgICAgPGEgaHJlZj1cXFwiIzNcXFwiPkNvbmRpdGlvbmFsczwvYT5cXG4gICAgPC9saT5cXG4gICAgPGxpPlxcbiAgICAgIDxhIGhyZWY9XFxcIiM0XFxcIj5SZXBlYXRlcnM8L2E+XFxuICAgIDwvbGk+XFxuICAgIDxsaT5cXG4gICAgICA8YSBocmVmPVxcXCIjNVxcXCI+TG9hZGluZyBUZW1wbGF0ZTwvYT5cXG4gICAgPC9saT5cXG4gICAgPGxpPlxcbiAgICAgIDxhIGhyZWY9XFxcIiM2XFxcIj5Db21wb3NpdGlvbjwvYT5cXG4gICAgPC9saT5cXG4gIDwvb2w+XFxuPC90ZW1wbGF0ZT5cXG5cIjsiXSwibWFwcGluZ3MiOiJBQUFBIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///index.html\n");
 
 /***/ }),
 
@@ -1046,29 +1148,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
-/***/ "one":
-/*!********************!*\
-  !*** ./src/one.ts ***!
-  \********************/
-/*! exports provided: one */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"one\", function() { return one; });\nvar one = /** @class */ (function () {\r\n    function one() {\r\n    }\r\n    return one;\r\n}());\r\n\r\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoib25lLmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vc3JjL29uZS50cz81YjUyIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjbGFzcyBvbmUge31cclxuIl0sIm1hcHBpbmdzIjoiQUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTs7Iiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///one\n");
-
-/***/ }),
-
-/***/ "one.html":
-/*!**********************!*\
-  !*** ./src/one.html ***!
-  \**********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("module.exports = \"<template>\\r\\n    <h1>Basic Template</h1>\\r\\n    <p>All Templates works with a View-Model, but do not absolutely need one. This page has one, since it's served with the\\r\\n        Router.\\r\\n    </p>\\r\\n</template>\";//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoib25lLmh0bWwuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvb25lLmh0bWw/ZjRhZiJdLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IFwiPHRlbXBsYXRlPlxcclxcbiAgICA8aDE+QmFzaWMgVGVtcGxhdGU8L2gxPlxcclxcbiAgICA8cD5BbGwgVGVtcGxhdGVzIHdvcmtzIHdpdGggYSBWaWV3LU1vZGVsLCBidXQgZG8gbm90IGFic29sdXRlbHkgbmVlZCBvbmUuIFRoaXMgcGFnZSBoYXMgb25lLCBzaW5jZSBpdCdzIHNlcnZlZCB3aXRoIHRoZVxcclxcbiAgICAgICAgUm91dGVyLlxcclxcbiAgICA8L3A+XFxyXFxuPC90ZW1wbGF0ZT5cIjsiXSwibWFwcGluZ3MiOiJBQUFBIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///one.html\n");
-
-/***/ }),
-
 /***/ "resources/index":
 /*!********************************!*\
   !*** ./src/resources/index.ts ***!
@@ -1078,86 +1157,6 @@ eval("module.exports = \"<template>\\r\\n    <h1>Basic Template</h1>\\r\\n    <p
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"configure\", function() { return configure; });\nfunction configure(config) {\r\n    //config.globalResources([]);\r\n}\r\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicmVzb3VyY2VzL2luZGV4LmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vc3JjL3Jlc291cmNlcy9pbmRleC50cz83NDBmIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7RnJhbWV3b3JrQ29uZmlndXJhdGlvbn0gZnJvbSAnYXVyZWxpYS1mcmFtZXdvcmsnO1xyXG5cclxuZXhwb3J0IGZ1bmN0aW9uIGNvbmZpZ3VyZShjb25maWc6IEZyYW1ld29ya0NvbmZpZ3VyYXRpb24pIHtcclxuICAvL2NvbmZpZy5nbG9iYWxSZXNvdXJjZXMoW10pO1xyXG59XHJcbiJdLCJtYXBwaW5ncyI6IkFBRUE7QUFBQTtBQUFBO0FBQ0E7QUFDQTsiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///resources/index\n");
-
-/***/ }),
-
-/***/ "six":
-/*!********************!*\
-  !*** ./src/six.ts ***!
-  \********************/
-/*! exports provided: six */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"six\", function() { return six; });\nvar six = /** @class */ (function () {\r\n    function six() {\r\n    }\r\n    return six;\r\n}());\r\n\r\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic2l4LmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vc3JjL3NpeC50cz9kZDQzIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjbGFzcyBzaXgge31cbiJdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7OyIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///six\n");
-
-/***/ }),
-
-/***/ "six.html":
-/*!**********************!*\
-  !*** ./src/six.html ***!
-  \**********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("module.exports = \"<template>\\n</template>\\n\";//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic2l4Lmh0bWwuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvc2l4Lmh0bWw/OWM2YiJdLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IFwiPHRlbXBsYXRlPlxcbjwvdGVtcGxhdGU+XFxuXCI7Il0sIm1hcHBpbmdzIjoiQUFBQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///six.html\n");
-
-/***/ }),
-
-/***/ "small-template.html":
-/*!*********************************!*\
-  !*** ./src/small-template.html ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("module.exports = \"<template>\\n  <p>A very small template.</p>\\n</template>\\n\";//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic21hbGwtdGVtcGxhdGUuaHRtbC5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3NyYy9zbWFsbC10ZW1wbGF0ZS5odG1sPzk0MTIiXSwic291cmNlc0NvbnRlbnQiOlsibW9kdWxlLmV4cG9ydHMgPSBcIjx0ZW1wbGF0ZT5cXG4gIDxwPkEgdmVyeSBzbWFsbCB0ZW1wbGF0ZS48L3A+XFxuPC90ZW1wbGF0ZT5cXG5cIjsiXSwibWFwcGluZ3MiOiJBQUFBIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///small-template.html\n");
-
-/***/ }),
-
-/***/ "three":
-/*!**********************!*\
-  !*** ./src/three.ts ***!
-  \**********************/
-/*! exports provided: Three */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Three\", function() { return Three; });\nvar Three = /** @class */ (function () {\r\n    function Three() {\r\n        this.theTruth = false;\r\n    }\r\n    return Three;\r\n}());\r\n\r\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidGhyZWUuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvdGhyZWUudHM/Nzk0MiJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY2xhc3MgVGhyZWUge1xyXG4gIHRoZVRydXRoID0gZmFsc2U7XHJcbn1cclxuIl0sIm1hcHBpbmdzIjoiQUFBQTtBQUFBO0FBQUE7QUFBQTtBQUNBO0FBQ0E7QUFBQTtBQUFBOzsiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///three\n");
-
-/***/ }),
-
-/***/ "three.html":
-/*!************************!*\
-  !*** ./src/three.html ***!
-  \************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("module.exports = \"<template>\\r\\n    <h1>Template with Conditionals</h1>\\r\\n    <div show.bind=\\\"theTruth\\\">\\r\\n        <p>Is out there!</p>\\r\\n    </div>\\r\\n    <div if.bind=\\\"theTruth\\\">\\r\\n        <p>Is out there!</p>\\r\\n    </div>\\r\\n</template>\";//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidGhyZWUuaHRtbC5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3NyYy90aHJlZS5odG1sPzA3NzkiXSwic291cmNlc0NvbnRlbnQiOlsibW9kdWxlLmV4cG9ydHMgPSBcIjx0ZW1wbGF0ZT5cXHJcXG4gICAgPGgxPlRlbXBsYXRlIHdpdGggQ29uZGl0aW9uYWxzPC9oMT5cXHJcXG4gICAgPGRpdiBzaG93LmJpbmQ9XFxcInRoZVRydXRoXFxcIj5cXHJcXG4gICAgICAgIDxwPklzIG91dCB0aGVyZSE8L3A+XFxyXFxuICAgIDwvZGl2PlxcclxcbiAgICA8ZGl2IGlmLmJpbmQ9XFxcInRoZVRydXRoXFxcIj5cXHJcXG4gICAgICAgIDxwPklzIG91dCB0aGVyZSE8L3A+XFxyXFxuICAgIDwvZGl2PlxcclxcbjwvdGVtcGxhdGU+XCI7Il0sIm1hcHBpbmdzIjoiQUFBQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///three.html\n");
-
-/***/ }),
-
-/***/ "two":
-/*!********************!*\
-  !*** ./src/two.ts ***!
-  \********************/
-/*! exports provided: Two */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Two\", function() { return Two; });\nvar Two = /** @class */ (function () {\r\n    function Two() {\r\n        this.conference = \"DevSum18\";\r\n    }\r\n    return Two;\r\n}());\r\n\r\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidHdvLmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vc3JjL3R3by50cz83ZmJlIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjbGFzcyBUd28ge1xuICBjb25mZXJlbmNlID0gXCJEZXZTdW0xOFwiO1xufVxuIl0sIm1hcHBpbmdzIjoiQUFBQTtBQUFBO0FBQUE7QUFBQTtBQUNBO0FBQ0E7QUFBQTtBQUFBOzsiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///two\n");
-
-/***/ }),
-
-/***/ "two.html":
-/*!**********************!*\
-  !*** ./src/two.html ***!
-  \**********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("module.exports = \"<template>\\n  <h1>Template with View-Model</h1>\\n  <div>\\n    <p>\\n      <b>\\\\${}</b> was new syntax in ES2015 for string interpolation. The same syntax is used in Aurelia templates.</p>\\n    <p>\\n      <em>Ex.</em> Hello ${conference}!</p>\\n  </div>\\n  <div>\\n    <p>It can also be used to interpret JavaScript statements.</p>\\n    <p>\\n      <em>Ex.</em> Are you having a great time? ${conference === 'DevSum18' ? 'Yes!' : 'No :('}</p>\\n  </div>\\n</template>\\n\";//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidHdvLmh0bWwuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvdHdvLmh0bWw/YTIwNyJdLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IFwiPHRlbXBsYXRlPlxcbiAgPGgxPlRlbXBsYXRlIHdpdGggVmlldy1Nb2RlbDwvaDE+XFxuICA8ZGl2PlxcbiAgICA8cD5cXG4gICAgICA8Yj5cXFxcJHt9PC9iPiB3YXMgbmV3IHN5bnRheCBpbiBFUzIwMTUgZm9yIHN0cmluZyBpbnRlcnBvbGF0aW9uLiBUaGUgc2FtZSBzeW50YXggaXMgdXNlZCBpbiBBdXJlbGlhIHRlbXBsYXRlcy48L3A+XFxuICAgIDxwPlxcbiAgICAgIDxlbT5FeC48L2VtPiBIZWxsbyAke2NvbmZlcmVuY2V9ITwvcD5cXG4gIDwvZGl2PlxcbiAgPGRpdj5cXG4gICAgPHA+SXQgY2FuIGFsc28gYmUgdXNlZCB0byBpbnRlcnByZXQgSmF2YVNjcmlwdCBzdGF0ZW1lbnRzLjwvcD5cXG4gICAgPHA+XFxuICAgICAgPGVtPkV4LjwvZW0+IEFyZSB5b3UgaGF2aW5nIGEgZ3JlYXQgdGltZT8gJHtjb25mZXJlbmNlID09PSAnRGV2U3VtMTgnID8gJ1llcyEnIDogJ05vIDooJ308L3A+XFxuICA8L2Rpdj5cXG48L3RlbXBsYXRlPlxcblwiOyJdLCJtYXBwaW5ncyI6IkFBQUEiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///two.html\n");
 
 /***/ })
 

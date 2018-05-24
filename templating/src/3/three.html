@@ -1,0 +1,17 @@
+<template>
+  <h1>Template with Conditionals</h1>
+
+  <p>The two tools to use for confitional rendering of templates is
+    <code>if</code> and
+    <code>show</code>.</p>
+  <div>
+    <p>The truth </p>
+    <p show.bind="theTruth">is out there!</p>
+    <p show.bind="!theTruth">is hidden?</p>
+  </div>
+  <div>
+    <p>The truth </p>
+    <p if.bind="theTruth">is out there!</p>
+    <p else>is nowhere to be found...</p>
+  </div>
+</template>
