@@ -1,0 +1,34 @@
+<template>
+  <h1>Basic Data-Binding</h1>
+  <p>Aurelia can bind to HTML and SVG attributes.</p>
+  <p>The binding commands used are:</p>
+  <ul>
+    <li>one-time</li>
+    <li>to-view</li>
+    <li>from-view</li>
+    <li>two-way</li>
+    <li>bind</li>
+  </ul>
+  <p>The binding is a JavaScript expression, for ex a property.</p>
+
+  <p>Some examples</p>
+  <form action="">
+    <div class="form-group">
+      <label>Name</label>
+      <div class="row">
+        <input class="form-control col-6" type="text" value.bind="name" placeholder='Output is using "to-view"'>
+        <span class="pt-2 px-2 ">=</span>
+        <span class="pt-2" innerhtml.to-view="name"></span>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>Name</label>
+      <div class="row">
+        <input class="form-control col-6" type="text" value.bind="name" placeholder='Output is using "to-view"'>
+        <span class="pt-2 px-2 ">=</span>
+        <span class="pt-2" innerhtml.to-view="name"></span>
+      </div>
+    </div>
+  </form>
+</template>
