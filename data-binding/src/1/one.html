@@ -13,22 +13,45 @@
 
   <p>Some examples</p>
   <form action="">
+
     <div class="form-group">
-      <label>Name</label>
       <div class="row">
-        <input class="form-control col-6" type="text" value.bind="name" placeholder='Output is using "to-view"'>
-        <span class="pt-2 px-2 ">=</span>
-        <span class="pt-2" innerhtml.to-view="name"></span>
+        <label class="col-3">Counter (${counter_onetime}) using "one-time":</label>
+        <input class="form-control col-2" type="text" value.one-time="counter_onetime">
       </div>
     </div>
 
     <div class="form-group">
-      <label>Name</label>
       <div class="row">
-        <input class="form-control col-6" type="text" value.bind="name" placeholder='Output is using "to-view"'>
-        <span class="pt-2 px-2 ">=</span>
-        <span class="pt-2" innerhtml.to-view="name"></span>
+        <label class="col-3">Counter (${counter_toview}) using "to-view":</label>
+        <input class="form-control col-2" type="text" value.to-view="counter_toview">
       </div>
+    </div>
+
+    <div class="form-group">
+      <div class="row">
+        <label class="col-3">Counter (${counter_fromview}) using "from-view":</label>
+        <input class="form-control col-2" type="text" value.from-view="counter_fromview">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="row">
+        <label class="col-3">Counter (${counter_twoway}) using "two-way":</label>
+        <input class="form-control col-2" type="text" value.two-way="counter_twoway">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="row">
+        <label class="col-3">Counter (${counter_bind}) using "bind":</label>
+        <input class="form-control col-2" type="text" value.bind="counter_bind">
+      </div>
+    </div>
+
+    <div>
+      <button type="button" class="btn btn-primary" click.delegate="click_handler_add()">+</button>
+      <button type="button" class="btn btn-primary" click.delegate="click_handler_subract()">-</button>
     </div>
   </form>
 </template>
