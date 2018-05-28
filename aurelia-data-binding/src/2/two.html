@@ -1,15 +1,49 @@
 <template>
-  <h1>Template with View-Model</h1>
+  <h1>Class &amp; Style</h1>
   <div>
     <p>
-      The syntax
-      <code><b>\${}</b></code> was introduced in ES2015 for string interpolation. The same syntax is used in Aurelia templates to evaluate expressions.</p>
+      Bind an element's class attribute using string interpolation (or use .one-time):
+      <code><pre>
+        &#x3C;div class=&#x22;foo \${isActive ? &#x27;active&#x27; : &#x27;&#x27;} bar&#x22;&#x3E;&#x3C;/div&#x3E;
+        &#x3C;div class.bind=&#x22;isActive ? &#x27;active&#x27; : &#x27;&#x27;&#x22;&#x3E;&#x3C;/div&#x3E;
+        &#x3C;div class.one-time=&#x22;isActive ? &#x27;active&#x27; : &#x27;&#x27;&#x22;&#x3E;&#x3C;/div&#x3E;
+      </pre></code>
+    </p>
     <p>
-      <em>Ex.</em> Hello ${conference}!</p>
+      <em>Ex.</em> Hello
+      <span class.bind="color">${conference}</span>! (binding 'class' to a var with value:
+      <code>"${color}"</code> )</p>
   </div>
   <div>
-    <p>It can be used to interpret JavaScript statements.</p>
+    <p>You can bind a css string or object to an element's style attribute:
+
+
+      <code><pre>
+          View
+            &#x3C;div style.bind=&#x22;styleString&#x22;&#x3E;&#x3C;/div&#x3E;
+            &#x3C;div style.bind=&#x22;styleObject&#x22;&#x3E;&#x3C;/div&#x3E;
+          </pre></code>
+
+      <code><pre>
+          Data
+            this.styleString = &#x27;color: red; background-color: blue&#x27;;
+
+            this.styleObject = {
+              color: &#x27;red&#x27;,
+              &#x27;background-color&#x27;: &#x27;blue&#x27;
+            };
+            </pre></code>
+    </p>
+  </div>
+  <div>
     <p>
-      <em>Ex.</em> Are you having a great time? ${conference === 'DevSum18' ? 'Yes!' : 'No :('}</p>
+      If you need to do string interpolation in the
+      <code>style</code> attribute, use the
+      <code>css</code> attribute instead (because IE).
+
+      <code><pre>
+          &#x3C;div css=&#x22;width: ${width}px; height: ${height}px;&#x22;&#x3E;&#x3C;/div&#x3E;
+         </pre></code>
+    </p>
   </div>
 </template>

@@ -6,14 +6,15 @@ export class One {
   counter_fromview = 0;
   counter_twoway = 0;
   counter_bind = 0;
+  counter = 0;
 
   click_handler_add() {
-    console.log("adding");
     this.counter_onetime++;
     this.counter_toview++;
     this.counter_fromview++;
     this.counter_twoway++;
     this.counter_bind++;
+    this.counter++;
   }
 
   click_handler_subract() {
@@ -22,5 +23,6 @@ export class One {
     this.counter_fromview--;
     this.counter_twoway--;
     this.counter_bind--;
+    this.counter--;
   }
 }

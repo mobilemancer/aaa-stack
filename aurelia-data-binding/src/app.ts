@@ -2,7 +2,7 @@ import { PLATFORM } from "aurelia-pal";
 import { RouterConfiguration, Router } from "aurelia-router";
 
 export class App {
-  message = "Templating";
+  message = "Data Binding";
   router: Router;
   configureRouter(config: RouterConfiguration, router: Router): void {
     this.router = router;
@@ -42,6 +42,12 @@ export class App {
         name: "six",
         moduleId: PLATFORM.moduleName("6/six"),
         title: "Trigger or Delegate?"
+      },
+      {
+        route: "7",
+        name: "seven",
+        moduleId: PLATFORM.moduleName("7/seven"),
+        title: "Observable Properties"
       }
     ]);
     config.mapUnknownRoutes(PLATFORM.moduleName("index.html"));

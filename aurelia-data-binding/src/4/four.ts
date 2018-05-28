@@ -1,3 +1,18 @@
 export class Four {
-  numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  counter = 0;
+  ctr: HTMLInputElement;
+
+  click_handler_add() {
+    this.counter++;
+    this.updateElement();
+  }
+
+  click_handler_subract() {
+    this.counter--;
+    this.updateElement();
+  }
+
+  updateElement() {
+    this.ctr.value = this.counter.toString();
+  }
 }
