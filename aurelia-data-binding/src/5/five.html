@@ -1,12 +1,10 @@
 <template>
-  <require from="5/small-template.html"></require>
+  <require from="./../resources/value-converters/short-date"></require>
 
-  <h1>Loading External Templates</h1>
+  <h1>Value Converters</h1>
 
-  <p>Loading of external Templates is easy, just use
-    <code>require</code> and then "use" the element.</p>
-  <p></p>
-  <div>
-    <small-template></small-template>
-  </div>
+  <p>Some times data in the model won't be in a format you would like to display in the view. Enter Value Converters!
+  </p>
+  <p>Date: ${date}</p>
+  <p>Date through a value converter: ${date|shortDate}</p>
 </template>

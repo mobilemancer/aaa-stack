@@ -3,11 +3,14 @@
   <div>
     <p>
       Bind an element's class attribute using string interpolation (or use .one-time):
-      <code><pre>
-        &#x3C;div class=&#x22;foo \${isActive ? &#x27;active&#x27; : &#x27;&#x27;} bar&#x22;&#x3E;&#x3C;/div&#x3E;
-        &#x3C;div class.bind=&#x22;isActive ? &#x27;active&#x27; : &#x27;&#x27;&#x22;&#x3E;&#x3C;/div&#x3E;
-        &#x3C;div class.one-time=&#x22;isActive ? &#x27;active&#x27; : &#x27;&#x27;&#x22;&#x3E;&#x3C;/div&#x3E;
-      </pre></code>
+      <div class="card">
+        <code><pre>
+
+          &#x3C;div class=&#x22;foo \${isActive ? &#x27;active&#x27; : &#x27;&#x27;} bar&#x22;&#x3E;&#x3C;/div&#x3E;
+          &#x3C;div class.bind=&#x22;isActive ? &#x27;active&#x27; : &#x27;&#x27;&#x22;&#x3E;&#x3C;/div&#x3E;
+          &#x3C;div class.one-time=&#x22;isActive ? &#x27;active&#x27; : &#x27;&#x27;&#x22;&#x3E;&#x3C;/div&#x3E;
+        </pre></code>
+      </div>
     </p>
     <p>
       <em>Ex.</em> Hello
@@ -18,21 +21,28 @@
     <p>You can bind a css string or object to an element's style attribute:
 
 
-      <code><pre>
+      <div class="card mb-2">
+        <div class="card-header">
           View
-            &#x3C;div style.bind=&#x22;styleString&#x22;&#x3E;&#x3C;/div&#x3E;
-            &#x3C;div style.bind=&#x22;styleObject&#x22;&#x3E;&#x3C;/div&#x3E;
-          </pre></code>
+        </div>
+        <code><pre>
 
-      <code><pre>
+            &#x3C;div style.bind=&#x22;styleString&#x22;&#x3E;&#x3C;/div&#x3E;
+            &#x3C;div style.bind=&#x22;styleObject&#x22;&#x3E;&#x3C;/div&#x3E;</pre></code>
+      </div>
+      <div class="card">
+        <div class="card-header">
           Data
+        </div>
+        <code><pre>
+
             this.styleString = &#x27;color: red; background-color: blue&#x27;;
 
             this.styleObject = {
               color: &#x27;red&#x27;,
               &#x27;background-color&#x27;: &#x27;blue&#x27;
-            };
-            </pre></code>
+            };</pre></code>
+      </div>
     </p>
   </div>
   <div>
@@ -41,9 +51,11 @@
       <code>style</code> attribute, use the
       <code>css</code> attribute instead (because IE).
 
-      <code><pre>
-          &#x3C;div css=&#x22;width: ${width}px; height: ${height}px;&#x22;&#x3E;&#x3C;/div&#x3E;
-         </pre></code>
+      <div class="card">
+        <code><pre>
+
+          &#x3C;div css=&#x22;width: \${width}px; height: \${height}px;&#x22;&#x3E;&#x3C;/div&#x3E;</pre></code>
+      </div>
     </p>
   </div>
 </template>

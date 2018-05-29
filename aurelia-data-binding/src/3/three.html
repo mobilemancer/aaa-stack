@@ -1,17 +1,62 @@
 <template>
-  <h1>Template with Conditionals</h1>
+  <h1>Computed Properties</h1>
 
-  <p>The two tools to use for confitional rendering of templates is
-    <code>if</code> and
-    <code>show</code>.</p>
-  <div>
-    <p>The truth </p>
-    <p show.bind="theTruth">is out there!</p>
-    <p show.bind="!theTruth">is hidden?</p>
+  <p>Binding to properties default to dirty checking, this will occur about once every 120 ms. Which is kind of a lot, if you
+    have lot's of observed properties. Instead it's possible to hint the binding system so it doesn't have to resort to dirty-checking.
+    Do this using the
+    <code>@observable</code> decorator.
+  </p>
+  <div class="card mb-4">
+    <div class="card-header">
+      Enter Names
+    </div>
+    <form>
+      <div class="form-group">
+        <div class="row">
+          <label class="col-3">First Name:</label>
+          <input class="form-control col-5" type="text" value.bind="firstName">
+        </div>
+        <div class="row">
+          <label class="col-3">Family Name:</label>
+          <input class="form-control col-5" type="text" value.bind="familyName">
+        </div>
+      </div>
+    </form>
   </div>
-  <div>
-    <p>The truth </p>
-    <p if.bind="theTruth">is out there!</p>
-    <p else>is nowhere to be found...</p>
+  <div class="card mb-4">
+    <div class="card-header">
+      Not Observed
+    </div>
+    <form>
+      <div class="form-group">
+        <div class="row">
+          <label class="col-3">Full Name:</label>
+          <input class="form-control col-5" type="text" value.bind="fullName">
+        </div>
+        <div class="row">
+          <label class="col-3">Full Name Counter:</label>
+          <input class="form-control col-5" type="text" value.bind="counter">
+        </div>
+      </div>
+    </form>
   </div>
+
+  <div class="card mb-4">
+    <div class="card-header">
+      Observed
+    </div>
+    <form>
+      <div class="form-group">
+        <div class="row">
+          <label class="col-3">Observed Full Name:</label>
+          <input class="form-control col-5" type="text" value.bind="observedFullName">
+        </div>
+        <div class="row">
+          <label class="col-3">Observed Full Name Counter:</label>
+          <input class="form-control col-5" type="text" value.bind="observedCounter">
+        </div>
+      </div>
+    </form>
+  </div>
+
 </template>

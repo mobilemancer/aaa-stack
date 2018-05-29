@@ -1,1 +1,3 @@
-export class Five {}
+export class Five {
+  date = new Date();
+}
