@@ -5,11 +5,14 @@
       The syntax
       <code><b>\${}</b></code> was introduced in ES2015 for string interpolation. The same syntax is used in Aurelia templates to evaluate expressions.</p>
     <p>
-      <em>Ex.</em> Hello ${conference}!</p>
+      <em>Ex.</em> Hello
+      <span class="alert-success">${conference}</span>!</p>
   </div>
   <div>
     <p>It can be used to interpret JavaScript statements.</p>
     <p>
-      <em>Ex.</em> Are you having a great time? ${conference === 'DevSum18' ? 'Yes!' : 'No :('}</p>
+      <em>Ex.</em> Are you having a great time?
+      <span class="alert-success">${conference === 'DevSum18' ? 'Yes!' : 'No :('}</span>
+    </p>
   </div>
 </template>

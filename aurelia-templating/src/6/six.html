@@ -1,4 +1,14 @@
 <template>
   <h1>Assemblying Templates by Composition</h1>
+  <p>Use the compose element to assemble templates and models dynamically.</p>
+  <div>
 
+    <code>
+<pre>
+    &#x3C;compose view-model=&#x22;./compose-me&#x22;&#x3E;&#x3C;/compose&#x3E;
+    &#x3C;compose view=&#x22;./compose-me.html&#x22;&#x3E;&#x3C;/compose&#x3E;
+    &#x3C;compose view-model=&#x22;./compose-me&#x22; model.bind=&#x22;data&#x22;&#x3E;&#x3C;/compose&#x3E; 
+</pre>
+  </code>
+  </div>
 </template>
