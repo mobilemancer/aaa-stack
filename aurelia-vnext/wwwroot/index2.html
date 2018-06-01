@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <script src="aurelia.umd.js"></script>
+    <style>
+        a {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: lightgrey;
+            border: 1px solid grey;
+            margin-right: 10px;
+        }
+
+        a.active {
+            background-color: blueviolet;
+            color: white
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        class HomeRoute {
+            static view() {
+                return '<template>Home route. Welcome ${message}</template>';
+            }
+
+            constructor() {
+                this.message = 'home';
+            }
+        }
+
+        class ContactsRoute {
+            static view() {
+                return '<template>Contacts route. Welcome ${message}</template>';
+            }
+
+            constructor() {
+                this.message = 'to contacts';
+            }
+        }
+
+        class App {
+            static view() {
+                return `<template>
+          Hello \${message}!
+          <div>
+            <a repeat.for='nav of router.navigation' href.bind='nav.href' class="\${nav.isActive ? 'active' : ''}">\${nav.title}</a>
+          </div>
+          <div>
+            <router-view></router-view>
+          </div>
+        </template>`;
+            }
+
+            constructor() {
+                this.message = 'world';
+            }
+
+            configureRouter(config, router) {
+                config.map([
+                    { route: 'home', moduleId: () => HomeRoute, title: 'Home', nav: true },
+                    { route: 'contacts', moduleId: () => ContactsRoute, title: 'Contacts', nav: true }
+                ]);
+                config.mapUnknownRoutes({ route: '*', redirect: 'home' })
+                this.router = router;
+            }
+        }
+
+        new Au.Aurelia({}).start().then(aurelia => aurelia.setRoot(App, document.body))
+    </script>
+</body>
+
+</html>
