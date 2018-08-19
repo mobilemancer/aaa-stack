@@ -4,10 +4,8 @@ import { RouterConfiguration, Router } from "aurelia-router";
 
 @autoinject
 export class App {
-  // private router: Router;
 
   configureRouter(config: RouterConfiguration, router: Router): void {
-    // this.router = router;
     config.map([
       {
         route: ["", "home"],

@@ -1,0 +1,26 @@
+<template>
+  <div class="container">
+
+    <h1>${message}</h1>
+
+    <div class="row pt-4">
+      <div class="col-3">
+        <button type="button" class="btn btn-info" click.delegate="get_number_clicked()">GET
+          Counter
+        </button>
+      </div>
+      <div class="col-9">Counter: ${counter}</div>
+    </div>
+
+    <div class="row pt-4">
+      <div class="col-3">
+        <button type="button" class="btn btn-info" click.delegate="post_number_clicked()">POST
+          Counter
+        </button>
+      </div>
+
+      <div class="col-9">Reply: ${counterReply}</div>
+    </div>
+
+  </div>
+</template>

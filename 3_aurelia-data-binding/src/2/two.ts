@@ -1,4 +1,4 @@
 export class Two {
-  conference = "DevSum18";
+  crowd = "Simplygon";
   color = "bg-info text-white";
 }
